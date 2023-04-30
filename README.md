@@ -9,10 +9,10 @@ The objective of this project was to develop a binary classifier capable of pred
 
 ## Data Preprocessing
 
-- Target variable(s) for the model:
+- Target variables for the model:
   - IS_SUCCESSFUL
 
-- Feature variable(s) for the model:
+- Feature variables for the model:
   - APPLICATION_TYPE
   - AFFILIATION
   - CLASSIFICATION
@@ -23,7 +23,7 @@ The objective of this project was to develop a binary classifier capable of pred
   - SPECIAL_CONSIDERATIONS
   - ASK_AMT
 
-- Variable(s) that are neither targets nor features and should be removed from the input data:
+- Variables that are neither targets nor features and should be removed from the input data:
   - EIN
   - NAME
 
