@@ -31,9 +31,11 @@ The objective of this project was to develop a binary classifier capable of pred
 
 - Neural network model configuration:
   - The initial model consisted of two hidden layers. The first layer contained 100 neurons, and the second layer had 60 neurons. Both the first and second layers utilized the 'relu' activation function, while the output layer used the 'sigmoid' activation function. The model was trained for 100 epochs in an attempt to achieve the desired accuracy.
+  ![First Model Setup](Resources/first_model_setup.png)
 
 - Target model performance achievement:
   - The initial model did not achieve the target accuracy of 75%, reaching only 72.71%.
+  ![First Model %](Resources/first_model_72.27.png)
 
 - Efforts to increase model performance:
   1. The first approach involved adding an additional hidden layer to the model with 45 neurons, also using the 'relu' activation function. However, this change resulted in a decrease in accuracy to 72.31%.
